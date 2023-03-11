@@ -6,6 +6,7 @@ include_directories(include)
 
 set(CXX_SOURCES
     Test.cpp
+    UdpReceiver.cpp
 )
 
 add_executable(${MODULE_NAME} ${CXX_SOURCES})
